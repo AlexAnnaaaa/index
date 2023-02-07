@@ -1,2 +1,2 @@
 ## index
-Ссайт группы [ссылка] (https://alexannaaaa.github.io/index/)
+Сайт группы [ссылка](https://alexannaaaa.github.io/index/)
