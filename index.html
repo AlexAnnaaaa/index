@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Сайт группы</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css"> 
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script async src="./js/popup.js">
+    </script>
+  </head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header_wrapper">
+        <img src="./img/logo.svg" alt="Лого">
+        <nav class="navigation">
+          <ul class="navigation_list">
+            <li>
+              <a class="item_link item_actiev" href="./index.html">Главная</a>
+            </li>
+            <li>
+              <a class="item_link" href="./students.html" target="_blank">Студенты</a>
+            </li>
+            <li>
+              <a class="item_link" href="">О курсе</a>
+            </li>
+            <li>
+              <a class="item_link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="button">Войти</button>
+      </div>
+      <div class="login-popup">
+        <h1 class="login-heading">Войти на сайт</h1>
+        <form class="login-form">
+          <input class="login-input" name="login" type="text" placeholder="Логин" required>
+          <input class="login-password" name="password" type="text" placeholder="Пароль" required>
+          <button class="popup-button" type="submit">Войти</button>
+        </form>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main-inner">
+        <h1 class="title">Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
+        <img class="class_ph" src="./img/class2.png" alt="Картинка">
+          <div class="main-item">
+            <h2 class="item-title">Для кого этот курс</h2>
+            <p class="text">
+              <!-- <br /> - для перенесо на другую строчку -->
+              Этот курс рассчитан на новичков, которые только начинают знакомство  
+              с веб-разработкой. В начале курса вы узнаете о том, как устроен 
+              Интернет и веб-сайты. 
+              Для обучения необходимо только владеть компьютерной грамотностью 
+              (пользоваться браузером, создавать папки и файлы, устанавливать 
+              программы).
+            </p>
+            <div class="learn">
+              "Учимся<br>
+              вместе!"
+            </div>
+          </div>
+          <div class="main-item">
+            <h2 class="item-title">Чему вы научитесь</h2>
+            <p class="text">
+              На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с 
+              нуля. Изучите основы языков <span>HTML</span>, <span>CSS</span> и немного <span> JavaScript </span>. Мы вместе 
+              сверстаем сайт нашей группы по этому макету. А затем вы <em>сами</em> 
+              сверстаете свои личные странички в качестве домашнего задания и мы 
+              выложим все это на сервер.
+            </p>
+          </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="copyright">
+        2022 &copy; <a href="" class="innop">учебный центр</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,25 @@
+.footer{
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  background-color: #213B7E;
+  margin: 0 auto;
+  padding: 0 19px;
+  max-width: 1300px;
+  min-height: 60px;
+}
+
+.copyright{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF80;
+}
+.innop{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF80;
+}

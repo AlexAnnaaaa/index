@@ -1,0 +1,27 @@
+.main_two{
+  height: calc(100vh - 136px);
+  overflow: auto;
+  padding: 0 50px 0 50px;
+  margin-top: 37px;
+}
+
+.students{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 37px;
+}
+
+.students_card_img{
+  width: 200px;
+  height: 270px;
+  background-color: #86C6F4;
+}
+
+span{
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 455px;
+  font-size: 20px;
+}
+
